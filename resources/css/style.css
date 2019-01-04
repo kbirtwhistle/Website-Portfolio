@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 html {
     background-color: black;
     color: #d6d6d6;
@@ -12,16 +11,42 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
-
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-#enter-button {
-    color: aqua;
-}
-
 h1 {
     text-align: center;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006cff;
+}
+
+
+li {
+    display: inline;
+    border: 2px solid #039eff;
+    padding: 5px;
+    
+}
+
+li:hover {
+    background-color: #be0000;
+}
+
+.nav-bar {
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 20px; 
+    margin-top: 70px;
+    padding-left: 20px;
 }
