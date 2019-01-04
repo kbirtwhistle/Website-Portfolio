@@ -24,4 +24,37 @@ html {
 
 h1 {
     text-align: center;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 20px; 
+    margin-top: 100px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006cff;
+}
+
+
+li {
+    display: inline;
+    border: 2px solid #039eff;
+    padding: 5px;
+    margin-top: 
+}
+
+li a:hover {
+    color: #be0000;
+}
+
+.active {
+    color: aqua;
+}
+
+.nav-bar {
+    margin-top: 50px;
 }
