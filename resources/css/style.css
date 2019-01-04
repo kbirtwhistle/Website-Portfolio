@@ -17,4 +17,11 @@ html {
     max-width: 1140px;
     margin: 0 auto;
 }
-    
+
+#enter-button {
+    color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
