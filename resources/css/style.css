@@ -1,3 +1,7 @@
+/* ---------------------------------------- */
+/* Basic Setup */
+/* ---------------------------------------- */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,10 +16,19 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/* ---------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------- */
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
 }
+
+/* ---------------------------------------- */
+/* HEADER */
+/* ---------------------------------------- */
+
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/controller.jpg);
@@ -24,56 +37,83 @@ header {
     height: 100vh;
 }
     
-h1 {
-    text-align: center;
-    margin-bottom: 5px;
-    margin: 0;
-}
-
-h1:hover {
-    color: #0089ff;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #006cff;
-}
-
-
-li {
-    display: inline;
-    border: 2px solid #039eff;
-    padding: 5px;
-    
-}
-
-li:hover {
-    background-color: #be0000;
-}
-
-.nav-bar {
-    margin-top: 50px;
-}
-
-h2 {
-    font-size: 20px; 
-    margin-top: 70px;
-    padding-left: 20px;
-    background-color: #0063ea;
-    height: 500px;
-    width: 50%;
-    
-}
-
 .main-header {
     position: absolute;
     width: 1140px;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+    left: 49%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.2s;
 }
+
+/* -------- BUTTONS -------- */
+
+.btn-enter {
+    background-color: #3498db;
+    border-radius: 200px;
+}   
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+    margin: 540px;
+    padding: 3px 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #196090;
+}
+
+/* -------- HEADINGS -------- */
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+/* -------- NAV BAR -------- */
+
+.main-nav {
+    float: right;
+    list-style: none;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 30px;
     
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    color: #fff; 
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 70%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s;
+    padding: 5px 0;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #196090;
+}
+
+
+
+
+
+
     
