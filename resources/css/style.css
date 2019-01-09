@@ -21,14 +21,18 @@ html {
 /* ---------------------------------------- */
 
 .row {
-    max-width: 1140px;
+    max-width: 1440px;
     margin: 0 auto;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
 }
 
 /* ---------------------------------------- */
 /* HEADER */
 /* ---------------------------------------- */
-
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/controller.jpg);
@@ -87,6 +91,7 @@ h1 {
 .main-nav {
     float: right;
     list-style: none;
+    margin-right: 0px;
 }
 
 .main-nav li {
@@ -95,8 +100,7 @@ h1 {
     
 }
 
-.main-nav li a:link,
-.main-nav li a:visited {
+.main-nav li {
     color: #fff; 
     text-decoration: none;
     text-transform: uppercase;
@@ -106,11 +110,21 @@ h1 {
     padding: 5px 0;
 }
 
-.main-nav li a:hover,
-.main-nav li a:active {
+.main-nav li:hover {
     border-bottom: 2px solid #196090;
 }
 
+/* -------- NEW CONTENT GRID -------- */
+
+h3 {
+    background-color: #3498db;
+    text-align: center;
+    border-radius: 200px;
+    transition: background-color 0.3s;
+}
+h3:hover {
+    background-color: #196090;
+}
 
 
 
