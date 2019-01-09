@@ -129,6 +129,14 @@ h3:hover {
     flex-direction: row;
 }
 
+.box1 {
+    flex:
+}
 
-
+@media all and (max-width:1000px) {
     
+}    
+
+@media all and (max-width:500px) {
+    
+}
