@@ -118,6 +118,14 @@ h1 {
 
 /* -------- NEW CONTENT GRID -------- */
 
+.section-features {
+    display: flex;
+    flex-direction: column;
+    align-content: left;
+    justify-content: flex-start; 
+}
+
+
 h3 {
     background-color: #3498db;
     text-align: center;
