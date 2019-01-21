@@ -89,9 +89,11 @@ h1 {
 /* -------- NAV BAR -------- */
 
 .main-nav {
-    float: right;
+    text-align: center;
     list-style: none;
     margin-right: 0px;
+    padding-top: 550px;
+    padding-right: 50px;
 }
 
 .main-nav li {
