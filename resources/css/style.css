@@ -141,7 +141,7 @@ P {
 }
 
 .main-nav li:hover {
-    border-bottom: 2px solid #196090;
+    border-bottom: 2px solid rgb(25, 96, 144);
 }
 
 
@@ -164,7 +164,7 @@ P {
 }
 
 .box2:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(200, 0, 0, 0.2))
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(25, 96, 144, 0.2))
 }
 /* -------- LATEST ENTRIES -------- */
 
@@ -173,8 +173,6 @@ P {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/black-black-background-buttons-1337247.jpg);
     background-size: cover;
 }
-
-
 
 .music2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/acoustic-acoustic-guitar-antique-1010519.jpg);
@@ -187,11 +185,9 @@ P {
     background-size: cover;
 }
 
-
-
 .writing2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/blank-brainstorming-business-6357.jpg);
     background-size: cover;
-    
 }
+    
 
