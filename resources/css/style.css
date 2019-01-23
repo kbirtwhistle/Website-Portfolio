@@ -158,16 +158,31 @@ P {
 
 .box2 {
     border: solid;
-    height: 500px;
+    height: 1000px;
     color: #196090;
     margin-top: 5px;
     border-width: thick;
     border-radius: 10%; 
 }
 
+
 .gaming2 {
-    background-image: url(images/black-black-background-buttons-1337247.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/black-black-background-buttons-1337247.jpg);
     background-size: cover;
-    opacity: 0.4; 
 }
+
+.music2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/acoustic-acoustic-guitar-antique-1010519.jpg);
+    background-size: cover; 
+}
+
+.streaming2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/broadcasting-computer-electronics-1212829.jpg);
+    background-size: cover;
+}
+
+.writing2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/blank-brainstorming-business-6357.jpg);
+    background-size: cover;
     
+}
