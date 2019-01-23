@@ -20,9 +20,10 @@ html {
 /* REUSABLE COMPONENTS */
 /* ---------------------------------------- */
 
-.row {
-    max-width: 1440px;
-    margin: 0 auto;
+.container {
+    display: flex; 
+    height: 100vh;
+    flex-direction: row;
 }
 
 a {
@@ -38,7 +39,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/controller.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 100vh; 
 }
     
 .main-header {
@@ -48,6 +49,7 @@ header {
     left: 49%;
     transform: translate(-50%, -50%);
     transition: background-color 0.2s;
+ 
 }
 
 /* -------- BUTTONS -------- */
@@ -86,6 +88,32 @@ h1 {
     margin-bottom: 20px;
 }
 
+h2 {
+    text-align: center;
+    
+}
+
+
+
+h3 {
+    background-color: #3498db;
+    text-align: center;
+    border-radius: 200px;
+    transition: background-color 0.3s;
+}
+
+h3:hover {
+    background-color: #196090;
+}
+
+
+/* -------- PARAGRAPHS -------- */
+
+P {
+    text-align: center;
+}
+
+
 /* -------- NAV BAR -------- */
 
 .main-nav {
@@ -116,28 +144,30 @@ h1 {
     border-bottom: 2px solid #196090;
 }
 
-/* -------- NEW CONTENT GRID -------- */
 
-.section-features {
-    display: flex;
-    flex-direction: column;
-    align-content: left;
-    justify-content: flex-start; 
+
+/* -------- FLEX-BOX -------- */
+
+.box {
+    width: 33.333%;
+    flex-shrink: 20%;
+    margin: 10px;
 }
 
+/* -------- LATEST ENTRIES -------- */
 
-h3 {
-    background-color: #3498db;
-    text-align: center;
-    border-radius: 200px;
-    transition: background-color 0.3s;
+.box2 {
+    border: solid;
+    height: 500px;
+    color: #196090;
+    margin-top: 5px;
+    border-width: thick;
+    border-radius: 10%; 
 }
-h3:hover {
-    background-color: #196090;
+
+.gaming2 {
+    background-image: url(images/black-black-background-buttons-1337247.jpg);
+    background-size: cover;
+    opacity: 0.4; 
 }
-
-
-
-
-
     
