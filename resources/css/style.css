@@ -154,8 +154,6 @@ P {
     margin: 10px;
 }
 
-/* -------- LATEST ENTRIES -------- */
-
 .box2 {
     border: solid;
     height: 1000px;
@@ -165,32 +163,31 @@ P {
     border-radius: 10%; 
 }
 
+.box2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(200, 0, 0, 0.2))
+}
+/* -------- LATEST ENTRIES -------- */
+
 
 .gaming2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(images/black-black-background-buttons-1337247.jpg);
     background-size: cover;
 }
 
-.gaming2:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(200, 0, 0, 0.2)), url(images/black-black-background-buttons-1337247.jpg);
-}
+
 
 .music2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/acoustic-acoustic-guitar-antique-1010519.jpg);
     background-size: cover; 
 }
 
-.music2:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(200, 0, 0, 0.2)), url(images/acoustic-acoustic-guitar-antique-1010519.jpg);
-}
+
 .streaming2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/broadcasting-computer-electronics-1212829.jpg);
     background-size: cover;
 }
 
-.streaming2:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(200, 0, 0, 0.2)), url(images/broadcasting-computer-electronics-1212829.jpg);
-}
+
 
 .writing2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/blank-brainstorming-business-6357.jpg);
@@ -198,6 +195,3 @@ P {
     
 }
 
-.writing2:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(200, 0, 0, 0.2)), url(images/blank-brainstorming-business-6357.jpg);
-}
