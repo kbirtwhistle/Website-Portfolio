@@ -156,7 +156,7 @@ P {
 
 .box2 {
     border: solid;
-    height: 1000px;
+    height: 500px;
     color: #196090;
     margin-top: 5px;
     border-width: thick;
@@ -177,7 +177,7 @@ P {
 
 .music2 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/acoustic-acoustic-guitar-antique-1010519.jpg);
-    background-size: cover; 
+    background-size: cover;
 }
 
 
@@ -192,14 +192,5 @@ P {
 }
     
 
-.gaming3 {
-    border: solid #196090;
-    border-width: 5px;
-    border-radius: 20%;
-    padding: 100px;
-    margin-top: 100px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
 
 
