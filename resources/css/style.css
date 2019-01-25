@@ -106,6 +106,15 @@ h3:hover {
     background-color: #196090;
 }
 
+h4 {
+    text-align: center;
+    font-size: 30px;
+    margin: 50px;
+    border: solid 5px #3498db;
+    border-radius: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(200, 0, 0, 0.6));
+    
+}
 
 /* -------- PARAGRAPHS -------- */
 
@@ -152,11 +161,12 @@ P {
     width: 33.333%;
     flex-shrink: 20%;
     margin: 10px;
+    
 }
 
 .box2 {
     border: solid;
-    height: 500px;
+    height: 800px;
     color: #196090;
     margin-top: 5px;
     border-width: thick;
@@ -192,5 +202,24 @@ P {
 }
     
 
+/* -------- MAIN SECTIONS -------- */
 
+.gaming-section {
+    padding-bottom: 1000px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 118, 255, 0.6));
+}
 
+.music-section {
+    padding-bottom: 1000px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 118, 255, 0.6));
+}
+
+.streaming-section {
+    padding-bottom: 1000px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 118, 255, 0.6));
+}
+
+.writing-section {
+    padding-bottom: 1000px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 118, 255, 0.6));
+}
