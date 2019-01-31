@@ -22,13 +22,16 @@ html {
 
 .container {
     display: flex; 
-    height: 100vh;
     flex-direction: row;
 }
 
 a {
     color: #fff;
     text-decoration: none;
+}
+
+body {
+    position: relative;
 }
 
 /* ---------------------------------------- */
@@ -40,6 +43,8 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh; 
+    text-align: center;
+    position: relative;
 }
     
 .main-header {
@@ -86,6 +91,7 @@ h1 {
     letter-spacing: 1px;
     word-spacing: 3px;
     margin-bottom: 20px;
+    position: static;
 }
 
 h2 {
@@ -129,8 +135,8 @@ P {
     text-align: center;
     list-style: none;
     margin-right: 0px;
-    padding-top: 550px;
     padding-right: 50px;
+    
 }
 
 .main-nav li {
@@ -147,6 +153,7 @@ P {
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s;
     padding: 5px 0;
+    
 }
 
 .main-nav li:hover {
