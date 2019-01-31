@@ -161,8 +161,9 @@ P {
     width: 33.333%;
     flex-shrink: 20%;
     margin: 10px;
-    
+    cursor: pointer;
 }
+    
 
 .box2 {
     border: solid;
@@ -204,22 +205,27 @@ P {
 
 /* -------- MAIN SECTIONS -------- */
 
-.gaming-section {
+#Gaming3 {
     padding-bottom: 1000px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 118, 255, 0.6));
+    
+    
 }
 
-.music-section {
+#Music3 {
     padding-bottom: 1000px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 118, 255, 0.6));
+    
 }
 
-.streaming-section {
+#Streaming3 {
     padding-bottom: 1000px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 118, 255, 0.6));
+    
 }
 
-.writing-section {
+#Writing3 {
     padding-bottom: 1000px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 118, 255, 0.6));
+    
 }
