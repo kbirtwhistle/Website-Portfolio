@@ -39,7 +39,7 @@ body {
 /* ---------------------------------------- */
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/controller.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/art-black-background-color-1441931.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh; 
@@ -60,7 +60,7 @@ header {
 /* -------- BUTTONS -------- */
 
 .btn-enter {
-    background-color: #3498db;
+    background-color: rgba(200, 0, 0, 0.6);
     border-radius: 200px;
 }   
 
@@ -78,7 +78,7 @@ header {
 
 .btn:hover,
 .btn:active {
-    background-color: #196090;
+    background-color: rgba(255, 148, 148, 0.6);
 }
 
 /* -------- HEADINGS -------- */
@@ -102,23 +102,23 @@ h2 {
 
 
 h3 {
-    background-color: #3498db;
+    background-color: rgba(200, 0, 0, 0.6);
     text-align: center;
     border-radius: 200px;
     transition: background-color 0.3s;
 }
 
 h3:hover {
-    background-color: #196090;
+    background-color: #000;
 }
 
 h4 {
     text-align: center;
     font-size: 30px;
     margin: 50px;
-    border: solid 5px #3498db;
     border-radius: 200px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(200, 0, 0, 0.6));
+    
     
 }
 
@@ -157,7 +157,7 @@ P {
 }
 
 .main-nav li:hover {
-    border-bottom: 2px solid rgb(25, 96, 144);
+    border-bottom: 2px solid rgba(200, 0, 0, 0.6);
 }
 
 
@@ -172,7 +172,6 @@ P {
 }
 
 .box2 {
-    border: solid;
     height: 800px;
     color: #196090;
     margin-top: 5px;
@@ -182,7 +181,7 @@ P {
 }
 
 .box2:hover {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(25, 96, 144, 0.2))
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(200, 0, 0, 0.6))
 }
 /* -------- LATEST ENTRIES -------- */
 
@@ -213,20 +212,56 @@ P {
 
 .gaming-section {
     padding-bottom: 1000px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 118, 255, 0.6));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(200, 0, 0, 0.6));
 }
 
 .music-section {
     padding-bottom: 1000px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 118, 255, 0.6));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(200, 0, 0, 0.6));
 }
 
 .streaming-section {
     padding-bottom: 1000px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 118, 255, 0.6));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(200, 0, 0, 0.6)));
 }
 
 .writing-section {
     padding-bottom: 1000px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 118, 255, 0.6));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(200, 0, 0, 0.6));
+}
+
+/* -------- CONTENT SECTIONS -------- */
+
+#gaming-content {
+    display: flex;
+    padding-top: 50px;
+    text-align: center;
+}
+
+   
+    
+    
+
+#gaming-section {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 4px 4px 0 rgba(0,0,0,0.1);
+
+}
+
+.new-games-box {
+    background: green;
+}
+
+.old-games-box {
+    background: blue;
+}
+
+.multiplayer-games-box {
+    background: orange;
+}
+
+.singleplayer-games-box {
+    background: purple;
 }
